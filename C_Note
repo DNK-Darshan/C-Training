@@ -1,0 +1,142 @@
+Application Of C Language : 
+	- System Programming
+	- Embedded system
+	- Compiler & Interrupts
+	- Database System
+	- Nwtworking Software
+	- Game Development
+
+C Program Structure :
+	- Include Header Files
+	- Add macros and constant variable
+	- Declare a global variable if needed
+	- Write main function
+	- Write needed function into the program and call it into the main program
+
+Features of C : 
+	- General purpose language
+	- Fast Programming Language
+	- Portable ( Runs in every machine with same code )
+
+DataType : 
+	- How much space a variable is going to occupy in memory.
+
+Rule of variable Name : 
+	- Do not start the variable name with digit
+	- brgining with underscore is valid but not recommended
+	- C is a case sensitive language so uppercase and lowercase both are different
+	- Special characters are not allowed
+	- Blanks and whitespaces are not allowed
+	- Do not use keywords to name your variables
+	- Do not use long name for variable name
+
+- %d and any other this type of data is a placeholder for the variable
+
+- sizeof() - Find the variable size and it is not a function it is a unary operator
+
+- long int take a 8 bytes of memory
+- short int take a 2 bytes of memory
+
+- Unsigned int range - 0 to 65535 2 bytes
+- Signed int range - -32768 to +32767
+- Unsigned int range - 0 to 4294967295 4 bytes
+- When we declare the variable int it is default assign the signed int
+- If we want to assign the unsigned int we must put it like 
+	- Unsigned int var_name;
+
+- Character Variable :
+	- Size is 1 byte - 8 bits
+	- Range of Unsigned is 0 to 255
+	- Range of signed is -128 to +127
+
+- Float Size --> 4 byte = 32 bits %f (Placeholder)
+- Double Size --> 8 byte = 64 bits %f (Placeholder)
+- Long Double --> 16 byte = 128 bits %Lf (Placeholder)
+
+Variable : 
+	- Scope Of Variable 
+	- Global variable
+	- Local Variable 
+
+Constants: 
+	- we can define constant in c using two methods 
+		- Using const keyword
+		- Using #define
+
+	- Using #define
+		- Avoid semicolon at the end
+		
+C Storage Classes : 
+	- They initial for controlling how variable behave in program.
+	- Store clsses tells the compiler variable's scope, lifetime, linkage, memory location
+	- There are four types of storage classes available in c 
+		- Static
+		- Auto
+		- Register
+		- Extern
+		
+	1. Auto :
+		- Default storage class for local variable
+		- Its scope is local between the function or block
+		- Lifetime only during the function execution
+		- Store in stack memory
+		- Default value is garbage
+		
+	2. Register :
+		- Storing variable in CPU register for fastest access.
+		- Scope : Local
+		- Lifetime : Function Execution
+		- Memory : CPU Register
+		- Default Value : Garbage
+		
+Memory layout Of C : 
+	- The memory layout of the program shows how its data is stored in memory during execution.
+	- Memory is divided into the section such as a Code, Data, Stack, Heap
+	
+
+Function : 
+	- In C functions are global by default
+	- This means if we want to access the function outside from the file where it is declared, we can access it easily.
+	- Now if we want to restrict this access, then we make our function static by simply putting a keyword static in front of the 										function.
+	
+	
+Recursion : 
+	- Direct Recursion
+	- Indirect Recursion
+	- Tail Recursion
+	- Non Tail Recursion
+
+1. Direct Recursion : 
+	- A function is called direct recursive if it calls the same function again.
+	fun() {
+		// Some Code
+
+		fun()
+		
+		// Some Code		
+	}
+	
+2. Indirect Recursion : 
+	- A function is called indirect recursive if it calls another function and then function2 calls function directly or indirectly.
+	fun() {
+		// Some Code
+		
+		fun2()
+		
+		// Some Code
+	}
+	
+	fun2() {
+		// Some Code
+		
+		fun()
+		
+		// Some Code
+	}
+	
+3. Tail Recursion :
+	- A recursive function said to be tail recursive if the recursive call is the last thing done by the function. There is no need to keep record of the previous state.	
+		
+		
+		
+
