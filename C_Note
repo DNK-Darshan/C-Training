@@ -137,6 +137,12 @@ Recursion :
 3. Tail Recursion :
 	- A recursive function said to be tail recursive if the recursive call is the last thing done by the function. There is no need to keep record of the previous state.	
 		
-		
+
+-------------------------------
+Pending Topics: 
+	- Matrix in C
+	- Print 2D array using Pointer
+	- Multidimentionnal Array
+	- Video Number 116 to 126
 		
 
