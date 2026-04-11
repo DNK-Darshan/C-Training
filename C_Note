@@ -136,6 +136,17 @@ Recursion :
 	
 3. Tail Recursion :
 	- A recursive function said to be tail recursive if the recursive call is the last thing done by the function. There is no need to keep record of the previous state.	
+	
+	
+	
+Structure Padding : 
+	- Compiler adds some extra empty bytes to the structure to make program run faster and more efficient.
+	
+	
+	
+File Pointer:
+	- FILE is a (hidden)structure that needs to be created for opening file.
+	- A FILE ptr that points to this structure & is used to access the file.
 		
 
 -------------------------------
