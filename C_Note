@@ -148,6 +148,34 @@ File Pointer:
 	- FILE is a (hidden)structure that needs to be created for opening file.
 	- A FILE ptr that points to this structure & is used to access the file.
 		
+		
+Difference between #define and constant variable
+	- Type
+	- Memory
+	- Scope
+	- Debugging
+	- Can Take Address
+	- Type Safety
+		#define A 10.5
+		int x = A;
+	
+	
+Differnce between structure and union
+	- Memory Allocation
+		- In Structure each variable has seperate memory.
+		- In union all variable shared the same memory.
+	- Total Size: 
+		- In structure total size is sum of all members
+		- In Union total size is size of largest member
+	- Access:
+		- All members used at once 
+		- Only one member valid at a time
+	- Value Store: 
+		- Store multiple values
+		- Store only one value at a time 
+	- Use case:
+		- Store full data
+		- Save memory
 
 -------------------------------
 Pending Topics: 
