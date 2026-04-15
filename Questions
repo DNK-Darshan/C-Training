@@ -1,0 +1,59 @@
+Write a program to check whether a character is a vowel or consonant using conditional statements
+Write a program to check whether a character is uppercase, lowercase, digit, or special character.
+Write a program to implement a simple calculator using switch for +, -, *, /.
+Write a program to check whether the p-th bit of a given number is set or not and print the result.
+Write a program to check whether the system is Little Endian or Big Endian.
+
+=====================================
+ From: Bhavesh (embedded/DNK200-OPTIPLEX/192.168.1.54/dnk200-<50dcc430b1112f1e>)
+  at Tue Apr 07 09:06:59 2026
+-------------------------------------
+Write a program to calculate the sum of first n natural numbers using a loop.
+Write a program to take numbers from the user in a loop and stop input when the user enters -1. Print the sum of all entered numbers.
+Write a program to print numbers from 1 to n, skipping all multiples of 3
+
+Write a program to read numbers in a loop:
+- Skip negative numbers
+- Stop when number > 100
+
+Write a program to compute factorial of a number using a loop.
+Write a program to count the number of set bits in a number using a loop and bitwise operators.
+Write a program to find the position of the first set bit using a loop.
+Write a program to print patterns using nested loops (triangle, pyramid, inverted pyramid).
+
+=====================================
+ From: Bhavesh (embedded/DNK200-OPTIPLEX/192.168.1.54/dnk200-<50dcc430b1112f1e>)
+  at Wed Apr 08 08:53:14 2026
+-------------------------------------
+Write a program to define a function that returns the maximum of three numbers.
+Write a program to create a function that swaps two numbers
+Write a program to create a function that counts how many times it is called
+Write a program to create a function that returns the first 3 least significant bits (LSB) of a given integer.
+Write a program to create a function that returns the first n least significant bits of a given integer.
+Write a program to create a function that counts leading zeros in an integer.
+
+=====================================
+ From: Bhavesh (embedded/DNK200-OPTIPLEX/192.168.1.54/dnk200-<50dcc430b1112f1e>)
+  at Fri Apr 10 09:05:34 2026
+-------------------------------------
+Write a program to create a function that finds the sum of all elements in an array.  Write a program to create a function that returns the maximum element in an array.  Write a program to create a function that counts how many even and odd numbers exist in an array.   Write a program to create a function that searches for a given element in an array and returns its index. If index not found then it's should return -1.  Write a program to create a function that checks whether an array is sorted in ascending order.  Write a program to create a function that rotates an array left by one position.  Write a program to create a function that found secound largest number from array
+
+=====================================
+ From: Bhavesh (embedded/DNK200-OPTIPLEX/192.168.1.54/dnk200-<50dcc430b1112f1e>)
+  at Mon Apr 13 08:48:40 2026
+-------------------------------------
+Write a program to create a function that finds the minimum element in a 2D array.
+
+Write a program to create a function that calculates sum of each row in a 2D array.
+
+Write a program to create a function that transpose a matrix.
+
+Write a program to create a function that finds determinant of 2x2 matrix.
+
+Write a program to create a function that updates a variable’s value using its pointer.
+
+Write a program to create a function that uses static pointer to retain previously accessed address.
+
+Write a program to create a function that returns a pointer to the first occurrence of the maximum element in an array.
+
+Write a program to create a function that swaps two array elements only using pointer arithmetic (without indexing).

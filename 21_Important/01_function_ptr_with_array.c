@@ -14,7 +14,7 @@ int mul(int a, int b) {
 
 int main()
 {
-    /* Other method to declare the array
+    /* Other method to write the array values
         fptr[0] = add;
         fptr[1] = sub;
         fptr[2] = mul;
