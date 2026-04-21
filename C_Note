@@ -164,15 +164,15 @@ Differnce between structure and union
 	- Memory Allocation
 		- In Structure each variable has seperate memory.
 		- In union all variable shared the same memory.
-	- Total Size: 
+	- Total Size:
 		- In structure total size is sum of all members
 		- In Union total size is size of largest member
 	- Access:
-		- All members used at once 
+		- All members used at once
 		- Only one member valid at a time
 	- Value Store: 
 		- Store multiple values
-		- Store only one value at a time 
+		- Store only one value at a time
 	- Use case:
 		- Store full data
 		- Save memory
@@ -183,5 +183,7 @@ Pending Topics:
 	- Print 2D array using Pointer
 	- Multidimentionnal Array
 	- Video Number 116 to 126
+	- Fwrite Function
+	- Fread Function
 		
 
