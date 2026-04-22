@@ -8,7 +8,7 @@ int isPalindrom(char *str) {
     }
     printf("\nLength : %d\n", len);
     int start = 0;
-    int end = len - 2;
+    int end = len - 1;
 
     while (start < end) {
         if(str[start] != str[end]){
