@@ -1,5 +1,5 @@
 #include <stdio.h>
-#pragma pack(1) 
+// #pragma pack(1) 
 
 struct abc
 {
@@ -11,7 +11,7 @@ struct abc
 
 int main()
 {
-    printf("\nSize of structure abc is %d", sizeof(var));
+    printf("\nSize of structure abc is %ld", sizeof(var));
     return 0;
 }
 
