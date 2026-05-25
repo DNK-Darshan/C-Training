@@ -18,6 +18,6 @@ int main()
 
 /*
 
-We can access the pointer union variable using the -> 
+We can access the pointer union variable using this -> aerrow operator
 
 */
