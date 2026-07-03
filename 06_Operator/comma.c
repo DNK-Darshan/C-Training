@@ -5,7 +5,7 @@ int main()
     int a = (1, 2, 3);
     printf("%d", a);
 
-    int var = (printf("\n%s\n", "HELLO"), 5);
+    int var = (printf("\n%s\n", "HELLO"), 15);
     printf("\n%d", var);
 
     int demo, num;

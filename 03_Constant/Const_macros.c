@@ -1,8 +1,8 @@
 #include <stdio.h>
 #define add(x, y) x+y
-#define greater(a, b) if(a > b) \
+#define greater(a, b) if(a > b)                                \
                         printf("%d is greater than %d", a, b); \
-                      else \
+                      else                                     \
                         printf("%d is lesser than %d", a, b);
 
 int main()
